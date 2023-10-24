@@ -113,7 +113,7 @@ a {
 
 /* Hero */
 .hero {
-  padding-top: 56px;
+  padding: 56px 0 65px;
   background: #fffcf4;
 }
 
@@ -125,7 +125,6 @@ a {
 .hero .media-block {
   position: relative;
   width: 48%;
-  /* background-color: orange; */
 }
 
 .hero .media-block .img {
@@ -133,6 +132,7 @@ a {
   height: 685px;
   object-fit: cover;
   border-radius: 20px;
+  display: block;
 }
 
 .hero .content-block {
@@ -147,7 +147,7 @@ a {
   background: #fff;
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
   width: 270px;
-  padding: 28px 24px;
+  padding: 24px;
 }
 
 .hero .hero-summary .item {
@@ -194,7 +194,7 @@ a {
 
 /* Hero Right */
 .hero .content-block {
-  padding: 64px 0 128px 130px;
+  padding: 64px 0 0 130px;
 }
 
 .hero .heading {
