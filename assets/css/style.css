@@ -503,4 +503,81 @@ a {
   line-height: 1.54; /* 153.846% */
 }
 
-/*  */
+/* Features */
+.features .features-content {
+  margin: 200px 0;
+  display: flex;
+  justify-content: space-between;
+  height: 438px;
+}
+
+.features-content .left-ft {
+  position: relative;
+  width: 48%;
+  /* background-color: orange; */
+}
+
+.features-content .left-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.features-content .right-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.features-content .left-img,
+.features-content .right-img {
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.features-content .right-ft {
+  width: 52%;
+  padding: 58px 0 58px 130px;
+  /* background-color: aqua; */
+}
+
+.features-content .title {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.features-content .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75s; /* 175% */
+}
+
+.features-content .report {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 28px; /* 175% */
+}
+.features-content .sign-up {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  border-radius: 26px;
+  background: #ffb900;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.features-content .sign-up span {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
