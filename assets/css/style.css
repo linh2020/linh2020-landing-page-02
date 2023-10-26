@@ -34,6 +34,10 @@ body {
   --line-clamp: 2;
 }
 
+.line-clamp.line-4 {
+  --line-clamp: ;
+}
+
 .heading {
   color: #171100;
   font-family: var(--font-heading);
@@ -424,3 +428,79 @@ a {
   color: #fff;
   background: var(--primary-color);
 }
+
+/* Feedback */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+
+.feedback .feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback-item {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.feedback .info .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback .info .title {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42; /* 141.667% */
+}
+
+.feedback .info .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.feedback .info .dots {
+  margin-top: 28px;
+  display: flex;
+}
+
+.feedback .info .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.feedback .info .dot.active {
+  background: #ffb900;
+  cursor: default;
+}
+
+/* Feedback-content */
+.feedback .content {
+  width: 66%;
+  margin-left: auto;
+}
+
+.feedback .content .desc {
+  margin-left: 30px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54; /* 153.846% */
+}
+
+/*  */
