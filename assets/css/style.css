@@ -580,14 +580,14 @@ a {
   background: #fffcf4;
 }
 
-.blog .header {
+.blog .blog-top {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
-.blog .title {
+.blog .heading.lv2 {
   color: #130606;
   font-family: Sen;
   font-size: 3.8rem;
@@ -596,13 +596,13 @@ a {
   letter-spacing: -0.76px;
 }
 
-.blog .list-item {
+.blog .blog-list {
   margin-top: 55px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
-.blog .list-item .item {
+.blog .blog-list .item {
   width: 370px;
   height: 467px;
   border-radius: 16px;
@@ -646,7 +646,7 @@ a {
   background: #e2dfda;
 }
 
-.blog .info .desc {
+.blog .info .title {
   color: #171100;
   font-size: 1.6rem;
   font-weight: 600;
@@ -666,7 +666,7 @@ a {
   background: #ffb900;
 }
 
-.blog .list-item img {
+.blog .blog-list img {
   width: 370px;
   height: 250px;
   border-radius: 16px 16px 0px 0px;
